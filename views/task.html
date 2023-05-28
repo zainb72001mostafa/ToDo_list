@@ -4,6 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>tasks</title>
         <link rel="stylesheet" href="../public/css/tasks.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     </head>
     <body>
         <div class ="container">
@@ -20,22 +22,31 @@
                 <ul class="checklist">
                     <li>
                         <label>Item 1</label> 
-                        <input type="checkbox" id="item1" >
+                        <div class="btns">
+                            <input  class="checkbox" type="checkbox" id="item3">
+                            <button class="delete" type="button"><img src="../public/images/delete.png" height="15" width="15"></button>
+                        </div>
                     </li>
                     <li>
                         <label>Item 2</label>
-                        <input type="checkbox" id="item2" >
+                        <div class="btns">
+                            <input  class="checkbox" type="checkbox" id="item3">
+                            <button class="delete" type="button"><img src="../public/images/delete.png" height="15" width="15"></button>
+                        </div>
                     </li>
                     <li>
                         <label>Item 3</label>
-                        <input type="checkbox" id="item3">
+                        <div class="btns">
+                            <input  class="checkbox" type="checkbox" id="item3">
+                            <button class="delete" type="button"><img src="../public/images/delete.png" height="15" width="15"></button>
+                        </div>
                     </li>
                   </ul>  
             </div>
             <div calss="input">
                 <form action="">
-                    <input type="text" id="input" placeholder="add new task">
-                    <button  type="submit">+</button>
+                    <input type="text" id="input" placeholder="">
+                    <button class="add"  type="submit">+</button>
                 </form>
 
             </div>
