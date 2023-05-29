@@ -1,11 +1,10 @@
 const mongoose =require('mongoose');
 const Schema = mongoose.Schema;
-
 const listSchema = new Schema({
-    title:{
+    title: {
         type: String,
         required: true
     }
 });
 
-module.exports = mongoose.Model('List',listSchema);
+module.exports = mongoose.model('List', listSchema);
