@@ -92,6 +92,10 @@ form{
     text-decoration: line-through;
     color: #999;
 }
+.checkbox{
+    accent-color:#f8c40a;
+    
+}
 .delete {
     border: none;
     background-color: white;
